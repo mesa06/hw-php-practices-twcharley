@@ -1,5 +1,5 @@
 <?php
-   $char="*";
+   $char="i";
    $row=5;
       for($i=1;$i<=$row;$i++){
          for($s=1;$s<=$row-$i;$s++){

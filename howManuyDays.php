@@ -5,6 +5,7 @@ $string="";
       $endDay=$getDate;
       $firtDayOfYear=(substr($getDate,0,4)."-01-01");
       $days=(strtotime($endDay)-strtotime($firtDayOfYear))/3600/24;
+      //echo strtotime($endDay);
       $string=" $days days between $firtDayOfYear to $endDay ";
    }
 
